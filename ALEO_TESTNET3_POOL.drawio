@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T08:40:42.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="js5-UBvyeZjgIQERTzk7" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-17T08:49:51.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="alM4NozoyY3sjcQuHiXe" version="20.4.1" type="github">
   <diagram id="LuNCkDdOlbgW_Kwg-oTR" name="第 1 页">
     <mxGraphModel dx="1042" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -65,13 +65,13 @@
             <mxPoint x="-2" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RL_wjd-sVfjmmM30V4Dz-28" value="&lt;h1&gt;ps&lt;/h1&gt;&lt;div&gt;1.Client向Proxy，以及proxy向ChainNodeCluster推送的数据每个commit占1MB。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RL_wjd-sVfjmmM30V4Dz-28" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="730" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="v4u-M9sXqx-tsGWDrTIS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v4u-M9sXqx-tsGWDrTIS-1" target="RL_wjd-sVfjmmM30V4Dz-15">
+        <mxCell id="v4u-M9sXqx-tsGWDrTIS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v4u-M9sXqx-tsGWDrTIS-1" target="RL_wjd-sVfjmmM30V4Dz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v4u-M9sXqx-tsGWDrTIS-1" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v4u-M9sXqx-tsGWDrTIS-1" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="505" y="180" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
