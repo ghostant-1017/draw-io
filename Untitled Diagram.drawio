@@ -1,17 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="FQfgo-1Cl8h0fg4zOunA">
-    <mxGraphModel dx="1297" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1142" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7FuEdaakRmzoEATMtUyy-21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="45" width="230" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="140" height="310" as="geometry" />
+        </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-1" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-2" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="130" width="390" height="280" as="geometry" />
+          <mxGeometry x="322.5" y="120" width="325" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-4" value="Topic: epoch-100" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="150" width="120" height="60" as="geometry" />
@@ -23,13 +29,30 @@
           <mxGeometry x="425" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-7" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="105" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-8" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-9" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-10" value="&lt;div&gt;PG:&lt;/div&gt;epoch, miner_key, worker_name, &lt;b&gt;valid&lt;/b&gt;_hash_count, &lt;b&gt;outdate&lt;/b&gt;_hash_count, &lt;b&gt;invalid&lt;/b&gt;_hash_count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="180" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-12" value="user, data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.011;entryY=0.465;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7FuEdaakRmzoEATMtUyy-14" target="7FuEdaakRmzoEATMtUyy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-20" value="RateLimit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7FuEdaakRmzoEATMtUyy-19">
+          <mxGeometry x="-0.0341" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7FuEdaakRmzoEATMtUyy-22" value="Kafka集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
