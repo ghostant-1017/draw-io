@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="FQfgo-1Cl8h0fg4zOunA">
-    <mxGraphModel dx="1276" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1206" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,86 @@
         </mxCell>
         <mxCell id="7FuEdaakRmzoEATMtUyy-22" value="Kafka集群" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K1p2tDZhs82iPvgP4EXN-1" target="K1p2tDZhs82iPvgP4EXN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-18" value="Send" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K1p2tDZhs82iPvgP4EXN-17">
+          <mxGeometry x="-0.392" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="730" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-2" value="Server Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-3" value="server1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="750" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-4" value="server2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="880" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-6" value="Kafka" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K1p2tDZhs82iPvgP4EXN-10" target="K1p2tDZhs82iPvgP4EXN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-19" value="Listen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K1p2tDZhs82iPvgP4EXN-16">
+          <mxGeometry x="0.1736" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-10" value="多分区" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="740" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-11" value="Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K1p2tDZhs82iPvgP4EXN-12" target="K1p2tDZhs82iPvgP4EXN-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="888" />
+              <mxPoint x="380" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-12" value="Response-{epochNumber}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="875" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-13" value="Response-{epochNumber + 1}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="905" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-14" value="Response-{epochNumber + 2}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="940" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K1p2tDZhs82iPvgP4EXN-15" target="K1p2tDZhs82iPvgP4EXN-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="770" />
+              <mxPoint x="970" y="888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-15" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K1p2tDZhs82iPvgP4EXN-22" target="K1p2tDZhs82iPvgP4EXN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-22" value="Coordinator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-24" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1p2tDZhs82iPvgP4EXN-26" value="要点：&lt;div&gt;假设当前处理的Epoch为N，查询Request的分区个数，查询Verifier消费者组各个分区的committed offset。&lt;/div&gt;&lt;div&gt;Coordinator从各个分区的committed offset开始消费，确保每个分区的committed_offset对应的server_epoch 都大于 N。&lt;/div&gt;&lt;div&gt;则Coordinator可以安全的认为EpochN对应的所有Request已经被处理了。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1140" width="365" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
