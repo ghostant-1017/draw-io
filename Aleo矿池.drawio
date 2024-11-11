@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="4ba9AhxMKBvxTWhoMoW5">
-    <mxGraphModel>
+    <mxGraphModel dx="1145" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-1" target="RuqaMxYV2GJsFRN-mBYs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-5" value="Websocket(TLS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuqaMxYV2GJsFRN-mBYs-4">
+          <mxGeometry x="0.2485" y="-2" relative="1" as="geometry">
+            <mxPoint x="-19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-3" target="RuqaMxYV2GJsFRN-mBYs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-9" value="根据Epoch进行&lt;div&gt;1.Nonce去重&lt;div&gt;2.Share累加&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuqaMxYV2GJsFRN-mBYs-8">
+          <mxGeometry x="0.1018" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-3" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-7" target="RuqaMxYV2GJsFRN-mBYs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-13" value="Persister持久化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuqaMxYV2GJsFRN-mBYs-12">
+          <mxGeometry x="-0.0895" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-7" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-11" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-16" target="RuqaMxYV2GJsFRN-mBYs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-15" value="Websocket(TLS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuqaMxYV2GJsFRN-mBYs-14">
+          <mxGeometry x="0.2485" y="-2" relative="1" as="geometry">
+            <mxPoint x="-19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-16" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-17" target="RuqaMxYV2GJsFRN-mBYs-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-22" value="1.限流（单个连接一分钟6个）&lt;div&gt;2.初步校验过滤不满足条件的&lt;/div&gt;&lt;div&gt;- address&lt;/div&gt;&lt;div&gt;- target&lt;/div&gt;&lt;div&gt;- epoch&lt;/div&gt;&lt;div&gt;- nonce&lt;/div&gt;&lt;div&gt;3.添加一个UUID作为请求唯一ID&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuqaMxYV2GJsFRN-mBYs-18">
+          <mxGeometry x="-0.19" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-17" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-20" target="RuqaMxYV2GJsFRN-mBYs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-20" target="RuqaMxYV2GJsFRN-mBYs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-20" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="450" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-24" target="RuqaMxYV2GJsFRN-mBYs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-24" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="350" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuqaMxYV2GJsFRN-mBYs-26" target="RuqaMxYV2GJsFRN-mBYs-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-26" value="Verifier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="570" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RuqaMxYV2GJsFRN-mBYs-29" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="450" width="100" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
